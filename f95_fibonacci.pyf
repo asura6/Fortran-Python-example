@@ -3,7 +3,7 @@
 
 python module f95_fibonacci ! in 
     interface  ! in :f95_fibonacci
-        subroutine fibonacci(n,e) ! in :f95_fibonacci:fib1.f95
+        subroutine fibonacci(n,e) ! in :f95_fibonacci:fib.f95
             integer intent(in) :: n
             integer dimension(n),intent(out),depend(n) :: e
         end subroutine fibonacci
