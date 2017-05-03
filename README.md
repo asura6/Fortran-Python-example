@@ -11,3 +11,8 @@ checks the syntax in the Fortran source code.
 ### make clean
 removes any final and intermediary files created during compilation
 
+## Build Dependencies
+### py2f
+Creation of wrapper function
+### gcc
+### gfortran
